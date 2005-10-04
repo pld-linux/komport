@@ -34,12 +34,12 @@ rm -f komport/settingsdialog.[ch]
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+install -d $RPM_BUILD_ROOT%{_desktopdir}/kde
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/kde
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -49,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/apps/komport
 %{_iconsdir}/*/*/*/*.png
-%{_desktopdir}/*.desktop
+%{_desktopdir}/kde/*.desktop
