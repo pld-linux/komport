@@ -1,5 +1,5 @@
 Summary:	Serial port communications and vt102 terminal emulator for KDE
-Summary(pl):	Program do komunikacji przez port szeregowy i emulator terminala vt102 dla KDE
+Summary(pl.UTF-8):   Program do komunikacji przez port szeregowy i emulator terminala vt102 dla KDE
 Name:		komport
 Version:	0.5.9
 Release:	1
@@ -23,14 +23,14 @@ support. The requirement for this program was to be small enough to
 fit on a floppy-based Linux distribution - such as the one from Linux
 Router Project.
 
-%description -l pl
+%description -l pl.UTF-8
 Program do komunikacji przez port szeregowy i emulator terminala vt102
 dla KDE. Celem projektu jest dostarczenie alternatywy dla minicoma z
-interfejsem uøytkownika w stylu KDE.
+interfejsem u≈ºytkownika w stylu KDE.
 
 komport to emulator terminala szeregowego podobny do minicoma z
-obs≥ug± skryptÛw. Wymagania tego programu mia≥y byÊ tak ma≥e, by
-mie∂ci≥ siÍ na dyskietkowych dystrybucjach Linuksa - takich jak ta z
+obs≈ÇugƒÖ skrypt√≥w. Wymagania tego programu mia≈Çy byƒá tak ma≈Çe, by
+mie≈õci≈Ç siƒô na dyskietkowych dystrybucjach Linuksa - takich jak ta z
 projektu Linux Router Project.
 
 %prep
