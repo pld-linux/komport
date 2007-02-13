@@ -1,5 +1,5 @@
 Summary:	Serial port communications and vt102 terminal emulator for KDE
-Summary(pl.UTF-8):   Program do komunikacji przez port szeregowy i emulator terminala vt102 dla KDE
+Summary(pl.UTF-8):	Program do komunikacji przez port szeregowy i emulator terminala vt102 dla KDE
 Name:		komport
 Version:	0.5.9
 Release:	1
