@@ -1,9 +1,8 @@
 # KDE Config File  
 [Desktop Entry]
-Encoding=UTF-8
 Type=Application
 Exec=komport -caption "%c" %i %m  
-Icon=komport.png
+Icon=komport
 DocPath=komport/index.html
 Comment=
 Comment[de]=
